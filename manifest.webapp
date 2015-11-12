@@ -1,0 +1,22 @@
+{
+  "name": "Multifunctional Notepad",
+  "description": "Create, read, delete notes, make a call, view gallery, use your camera.",
+  "launch_path": "/index.html",
+  "icons": {
+    "512": "/img/Notepad_512.png",
+    "128": "/img/Notepad_128.png"
+  },
+  "developer": {
+    "name": "Asztalos Richard",
+    "url": ""
+  },
+  
+  "default_locale": "hu",
+   
+    "permissions": {
+        "geolocation": {
+            "description" : "Using GPS to locate the current position"
+        }
+	}
+
+}

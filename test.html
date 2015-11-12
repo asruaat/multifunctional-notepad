@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Multifunctional Notepad</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="style/headers.css" rel="stylesheet" type="text/css"/>
+        <link href="style/drawer.css" rel="stylesheet" type="text/css"/>
+        <link href="style/app.css" rel="stylesheet" type="text/css"/>
+        <link href="style/layout.css" rel="stylesheet" type="text/css"/>
+		<link href="style/confirm.css" rel="stylesheet" type="text/css" />
+		<link href="bubble.css" rel="stylesheet" type="text/css" />
+		
+		<script src="jquery-1.7.1.min.js"></script>
+		<script src="map-app.js"></script>
+
+    </head>
+    <body>
+        <div>
+            <section data-type="sidebar">
+                <header>
+                    <h1>Options</h1>
+                </header>
+                <nav>
+                    <ul>
+						<li><a href="index.html">Create New Notes</a></li>
+                        <li><a href="Delete.html">Delete Notes</a></li>
+						<li><a href="contacts.html">Make a Call</a></li>
+						<li><a href="gallery.html">View Gallery</a></li>
+						<li><a href="test.html">Bubbler - the game</a></li>
+					    <li><a href="About.html">About</a></li>
+                        <li><a href="Exit.html">Exit Program</a></li>
+						<br><br>
+						<li id="btnLocateMe" data-role="button" class="myButton">Current Position (GPS)</li>
+						<li><p id="searchResults"></p></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section id="drawer" role="region">
+                <header>
+                    <a href="#content"><span class="icon icon-menu">hide sidebar</span></a>
+                    <a href="#drawer"><span class="icon icon-menu">show sidebar</span></a>
+                    <h1>Multifunctional Notepad</h1>
+                </header>
+                <div role="main">
+                    <section class="gaia-list fit scroll sticky">
+	<div id="time">Remaining time: </div>
+	<div id="pontszam">Score: 0</div>
+    <div id="parent">
+		<div id="mess1" class="message" onclick="increaseScore()">Catch me</div>
+		<div id="mess2" class="message" onclick="increaseScore2()">Catch me too</div>
+		<div id="mess3" class="message" onclick="increaseScore3()">You can't</div>
+		<div id="mess4" class="message" onclick="increaseScore4()">Tried, huh?</div>
+		<div id="mess5" class="message" onclick="increaseScore5()">Hahaha</div>
+		<br><br><br>
+	</div>
+
+
+		
+    </body>
+	<script src="game.js" type="text/javascript"></script>
+</html>

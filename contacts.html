@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+
+<html>
+      <head>
+        <title>Multifunctional Notepad</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="style/headers.css" rel="stylesheet" type="text/css"/>
+        <link href="style/drawer.css" rel="stylesheet" type="text/css"/>
+        <link href="style/app.css" rel="stylesheet" type="text/css"/>
+        <link href="style/layout.css" rel="stylesheet" type="text/css"/>
+		<link href="style/confirm.css" rel="stylesheet" type="text/css"/>
+
+
+		<script src="jquery-1.7.1.min.js"></script>
+		<script src="map-app.js"></script>
+    </head>
+  <body>
+    <div>
+            <section data-type="sidebar">
+                <header>
+                    <h1>Options</h1>
+                </header>
+                <nav>
+                    <ul>
+						<li><a href="index.html">Create New Notes</a></li>
+                        <li><a href="Delete.html">Delete Notes</a></li>
+						<li><a href="contacts.html">Make a Call</a></li>
+						<li><a href="gallery.html">View Gallery</a></li>
+						<li><a href="test.html">Bubbler - the game</a></li>
+						<li><a href="About.html">About</a></li>
+                        <li><a href="Exit.html">Exit Program</a></li>
+						<br><br>
+						<li id="btnLocateMe" data-role="button" class="myButton">Current Position (GPS)</li>
+						<li><p id="searchResults"></p></li>
+                    </ul>
+                </nav>
+            </section>
+
+        <section id="drawer" role="region">
+                <header>
+                    <a href="#content"><span class="icon icon-menu">hide sidebar</span></a>
+                    <a href="#drawer"><span class="icon icon-menu">show sidebar</span></a>
+                    <h1>Multifunctional Notepad</h1>
+                </header>
+                <div role="main">
+                    <section class="gaia-list fit scroll sticky">
+						<article>
+						 <header>Make a call</header>
+							<p> Click on this button to make your call! </p> <br>
+							<center><a id="tarcsazas" onclick="tel()" class="myButton">Call a number </a></center>
+								<br><br><hr>
+							</ul>
+						</article>
+										
+								<p><i> In this section you can make a call, create new contacts or searching in your
+									telephone book without closing this app.<br><br> Feel free to use whenever you need!
+									If you click on the button below you can make a call directly!<br><br>
+									Try it out!</i>
+								</p>
+								<br><br>
+					</section>
+				</div>
+		</section>
+    </div>
+						
+ </body>
+		<script type="text/javascript" src="/Activity.js"></script>
+</html>

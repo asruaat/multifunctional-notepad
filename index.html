@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Multifunctional Notepad</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="style/headers.css" rel="stylesheet" type="text/css"/>
+        <link href="style/drawer.css" rel="stylesheet" type="text/css"/>
+        <link href="style/app.css" rel="stylesheet" type="text/css"/>
+        <link href="style/layout.css" rel="stylesheet" type="text/css"/>
+		<link href="style/confirm.css" rel="stylesheet" type="text/css" />
+
+		
+		<script src="jquery-1.7.1.min.js"></script>
+		<script src="map-app.js"></script>
+
+    </head>
+    <body>
+        <div>
+            <section data-type="sidebar">
+                <header>
+                    <h1>Options</h1>
+                </header>
+                <nav>
+                    <ul>
+						<li><a href="index.html">Create New Notes</a></li>
+                        <li><a href="Delete.html">Delete Notes</a></li>
+						<li><a href="contacts.html">Make a Call</a></li>
+						<li><a href="gallery.html">View Gallery</a></li>
+						<li><a href="test.html">Bubbler - the game</a></li>
+					    <li><a href="About.html">About</a></li>
+                        <li><a href="Exit.html">Exit Program</a></li>
+
+						<br><br>
+						<li id="btnLocateMe" data-role="button" class="myButton">Current Position (GPS)</li>
+						<li><p id="searchResults"></p></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section id="drawer" role="region">
+                <header>
+                    <a href="#content"><span class="icon icon-menu">hide sidebar</span></a>
+                    <a href="#drawer"><span class="icon icon-menu">show sidebar</span></a>
+                    <h1>Multifunctional Notepad</h1>
+                </header>
+                <div role="main">
+                    <section class="gaia-list fit scroll sticky">
+							<p><i> You can create new notes or read the existing ones!</i> </p>
+								<hr>
+                        <article>
+                            <header>Existing Notes</header>
+                            <ul id="txts">
+							
+                            </ul>
+                        </article>
+						<br><hr>
+                        <article>
+                            <header>Add New Notes</header>
+                            <ul>
+                                <pre><input id="txt" type="text" placeholder="add new note" /> <td> &nbsp;&nbsp;&nbsp;&nbsp; </td><a id="action" class="myButton">Add</a></pre>
+                            </ul>
+                        </article>
+
+                    </section>
+                </div>
+            </section>
+
+
+        </div>
+    </body>
+			
+        <script type="text/javascript" src="/Storage.js"></script>
+		<script type="text/javascript" src="/Activity.js"></script>
+</html>
