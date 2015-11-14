@@ -19,8 +19,7 @@ function findMyCurrentLocation(){
 //a seachResult id-jú html objektumban megjeleníti a szélességi és hosszúsági helyzetet (egymás alá írva), illetve konzolra is kiírja
 function showCurrentLocation(position){
   $("#searchResults").html("Current Latitude : " + position.coords.latitude + "°" + "\<br> Current Longitude : " + position.coords.longitude + "°");
-    console.log(position.coords.latitude + "," + position.coords.longitude);  
- 
+
 }
 //hibakezelés -> valamilyen hiba lépett fel a pozíció meghatározása során -> pl. nem kapott engedélyt az app a usertől, vagy nem sikerült meghatározni
 // a pozíciót (időtúllépés vagy más miatt)

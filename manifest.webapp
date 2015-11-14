@@ -1,10 +1,10 @@
 {
-  "name": "Multifunctional Notepad",
-  "description": "Create, read, delete notes, make a call, view gallery, use your camera.",
+  "name": "MultiPad",
+  "description": "Create, read, delete notes, make a call, view gallery, use your camera or just play a bubble game.",
   "launch_path": "/index.html",
   "icons": {
-    "512": "/img/Notepad_512.png",
-    "128": "/img/Notepad_128.png"
+    "512": "/img/this-is-512x512.png",
+    "128": "/img/this-is-128x128.png"
   },
   "developer": {
     "name": "Asztalos Richard",
