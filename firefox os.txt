@@ -1,0 +1,10 @@
+App publikálás
+
+- szintaktikai ellenõrzés
+- emberek általi ellenõrzés
+
+- manifestben -> "version": 1.0, "developer": "url": -> githubos link
+- be kell zippelni a dolgokat -> de csak a mappán belüli dolgokat
+
+- https://marketplace.firefox.com/lang=hu
+- reg: dsdasa1993@gmail.com

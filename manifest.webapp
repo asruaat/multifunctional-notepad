@@ -1,4 +1,5 @@
 {
+  "version": "1.0",	
   "name": "MultiPad",
   "description": "Create, read, delete notes, make a call, view gallery, use your camera or just play a bubble game.",
   "launch_path": "/index.html",
@@ -8,7 +9,7 @@
   },
   "developer": {
     "name": "Asztalos Richard",
-    "url": ""
+    "url": "https://github.com/asruaat/multifunctional-notepad"
   },
   
   "default_locale": "hu",
